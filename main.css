@@ -1,0 +1,40 @@
+main{
+    background-image: url(./TV-bg.webp);
+    width: 800px;
+    background-size: 100%;
+    height: 460px;
+    background-color: #000;
+}
+body{
+    margin: 0;
+    margin-left: calc(50% - 400px);
+    display: inline-block;
+    margin-top: calc(50% - 230px);
+}
+div{
+    float: left;
+    margin-top: 12%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    text-align: center;
+    width: 50%;
+    background-color: black;
+    color:white;
+    text-transform: uppercase;
+}
+img{
+    width: 100px;
+}
+h1{
+    font-size: 250%;
+    margin-bottom: 1%;
+}
+p{
+    margin: 0;
+}
+p:first-of-type{
+    font-size: 180%;
+}
+p:last-of-type{
+    margin-top: 1em;
+}
